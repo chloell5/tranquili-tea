@@ -76,8 +76,7 @@ After cloning the repo:
 ```
 GET   /api/v1/customers/:customer_id/subscriptions
 POST  /api/v1/customers/:customer_id/subscriptions
-PATCH /api/v1/customers/:customer_id/subscriptions/:id
-PUT   /api/v1/customers/:customer_id/subscriptions/:id                   
+PATCH /api/v1/customers/:customer_id/subscriptions/:id                 
 ```
 
 <br />
