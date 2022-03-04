@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+customers = FactoryBot.create_list(:customer, 4)
+teas = FactoryBot.create_list(:tea, 10)
+FactoryBot.create(:subscription, customer_id: customers.first.id, tea_id: teas.first.id)
+FactoryBot.create(:subscription, customer_id: customers.first.id, tea_id: teas[2].id)
+FactoryBot.create(:subscription, customer_id: customers[1].id, tea_id: teas[4].id)
+FactoryBot.create(:subscription, customer_id: customers[2].id, tea_id: teas[6].id)
+FactoryBot.create(:subscription, customer_id: customers[3].id, tea_id: teas[8].id)
