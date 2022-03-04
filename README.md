@@ -29,9 +29,6 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/chloell5/tranquili-tea"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
     <a href="https://github.com/chloell5/tranquili-tea/issues">Report Bug</a>
     ·
     <a href="https://github.com/chloell5/tranquili-tea/issues">Request Feature</a>
